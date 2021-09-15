@@ -2,11 +2,14 @@
 
 This sample repository helps you to deploy a simple solution to watch for newly created accounts in your organization and submit a support case requesting the new account to have Enterprise Support enabled.
 
+> **WARNING**: This repository and its contents are only meant for Enterprise Support customers, as it is required to interact with AWS Support API and enable Enterprise Support to child accounts.
+> This solution should be deployed to your main account, where the new accounts are created.
+
 This CloudFormation template will create in your account:
 1. An IAM role with permissions to execute your Lambda function, and interact with AWS Support API.
-1. AWS Lambda function, that will submit the support case requesting Enterprise Support to be enabled in the newly created account
-1. EventBridge Rule, which will be matching the event for `CreateAccountResult` and passing this event to AWS Lambda
-1. AWS Lambda Permission, which allows the event from EventBridge rule to trigger the AWS Lambda.
+2. AWS Lambda function, that will submit the support case requesting Enterprise Support to be enabled in the newly created account
+3. EventBridge Rule, which will be matching the event for `CreateAccountResult` and passing this event to AWS Lambda
+4. AWS Lambda Permission, which allows the event from EventBridge rule to trigger the AWS Lambda.
 
 # Workflow
 ![Alt text](images/diagram.png?raw=true "Enabling Enterprise Support")
