@@ -50,7 +50,7 @@ On the top right corner of the page, click on `Create stack` -> `With new resour
 
 In the `Prerequisite - Prepare template` session, make sure the `Template is ready` option is selected.
 
-For the `Specify template`, select `Upload a template file` and choose the `EnableES.yaml` file you downloaded from this repository.
+For the `Specify template`, select `Upload a template file` and choose the `template/EnableES.yaml` file you downloaded from this repository.
 
 ![Alt text](images/setup/3.png?raw=true "Downloading the repo")
 
