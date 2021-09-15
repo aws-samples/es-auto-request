@@ -24,7 +24,7 @@ To facilitate the implementation of this solution, you can simply deploy the Clo
 
 To start the deployment, clone this repository to the desired location, or download it as a ZIP file. On this example, I will be downloading it as a ZIP file. 
 
-![Alt text](images/download-zip.png?raw=true "Downloading the repo")
+![Alt text](images/setup/0.png?raw=true "Downloading the repo")
 
 - **Extract files**
 
