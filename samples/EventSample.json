@@ -1,0 +1,43 @@
+{
+    "version": "0",
+    "id": "a1a1a1a1-a1a1-a1a1a-a1a1a1-a1a1a1a1a",
+    "detail-type": "Organizations - New Account Result event",
+    "source": "organizations.amazonaws.com",
+    "account": "111122223333",
+    "time": "2017-12-22T18:43:48Z",
+    "region": "us-east-1",
+    "resources": [
+      "arn:aws:ec2:us-west-1:123456789012:instance/i-1234567890abcdef0"
+    ],
+    "detail": {
+        "eventVersion": "1.08",
+        "userIdentity": {
+            "accountId": "123456789",
+            "invokedBy": "AWS Internal"
+        },
+        "eventTime": "2021-09-10T02:08:39Z",
+        "eventSource": "organizations.amazonaws.com",
+        "eventName": "CreateAccountResult",
+        "awsRegion": "us-east-1",
+        "sourceIPAddress": "AWS Internal",
+        "userAgent": "AWS Internal",
+        "requestParameters": null,
+        "responseElements": null,
+        "eventID": "q1q1q1q1-w1w1w1w-e1e1e-e1e1e1e-1e1e1e1e",
+        "readOnly": false,
+        "eventType": "AwsServiceEvent",
+        "managementEvent": true,
+        "recipientAccountId": "123456789",
+        "serviceEventDetails": {
+            "createAccountStatus": {
+                "id": "car-01e5afb011dc11ec9eaf0a0954ef8936",
+                "state": "SUCCEEDED",
+                "accountName": "****",
+                "accountId": "123456789",
+                "requestedTimestamp": "Sep 10, 2021 2:08:36 AM",
+                "completedTimestamp": "Sep 10, 2021 2:08:39 AM"
+            }
+        },
+        "eventCategory": "Management"
+    }
+  }

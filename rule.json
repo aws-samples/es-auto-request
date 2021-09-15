@@ -1,0 +1,10 @@
+{
+    "detail": {
+        "eventName": ["CreateAccountResult"],
+        "serviceEventDetails": {
+            "createAccountStatus": {
+            "state": ["SUCCEEDED", "Strange"]
+            }
+        }
+    }
+}
