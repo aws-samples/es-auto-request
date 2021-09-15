@@ -3,6 +3,7 @@
 This sample repository helps you to deploy a simple solution to watch for newly created accounts in your organization and submit a support case requesting the new account to have Enterprise Support enabled.
 
 > **WARNING**: This repository and its contents are only meant for Enterprise Support customers, as it is required to interact with AWS Support API and enable Enterprise Support to child accounts.
+
 > This solution should be deployed to your main account, where the new accounts are created.
 
 This CloudFormation template will create in your account:
